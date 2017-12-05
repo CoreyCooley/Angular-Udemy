@@ -28,16 +28,34 @@ let doLog = (message) => {
 
 doLog("Corey Arrow Funtion");
 
-interface Point{
+// Interface
+interface IPoint{
     x: number,
-    y: number
+    y: number,
+    draw: () => void // function signature
 }
 
+// Import Point Class
+import {Point} from './point';
+
+//let point: Point = new Point();
+let point = new Point(1, 4);
+point.draw();
+point.x = 10;
+point.draw();
+
+/*
 let drawPoint = (point: Point)=>  {
-    console.log(point.x + ' ' + point.y);
+    // ...
 }
+
+let getDistance = (pointA: Point, pointB: Point) => {
+    // ...
+}
+
 
 drawPoint({
     x:1,
     y: 2
 })
+*/

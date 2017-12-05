@@ -1,3 +1,5 @@
+ng serve
+
 node <file name>
 
 tsc <file name>
@@ -5,3 +7,5 @@ tsc <file name>
 ls
 
 rm <file name>
+
+import {<object>} from '@angular/core';
