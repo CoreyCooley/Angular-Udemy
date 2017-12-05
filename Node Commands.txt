@@ -1,0 +1,7 @@
+node <file name>
+
+tsc <file name>
+
+ls
+
+rm <file name>
