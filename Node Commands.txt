@@ -8,4 +8,6 @@ ls
 
 rm <file name>
 
+tsc *.ts --target ES5
+
 import {<object>} from '@angular/core';
